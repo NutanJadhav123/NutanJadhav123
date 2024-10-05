@@ -1,0 +1,452 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "3dd70519-8ded-42b9-a873-12ba3572ff40",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s= \"this is My First Python Programming class and i am learning python string and its function\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c6dc06dc-3028-4c41-9be5-68e16e939a75",
+   "metadata": {},
+   "source": [
+    "# 1.Try to extract data free index one to index 300 with a jump of 3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "95dcd074-7b21-46af-8e36-c2a278dd9498",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'h   r tnrrmglsnimengyosi dtfco'"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(s[1:301:3])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "ffdadb1b-9ed4-49cf-995b-f48444753702",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1 = \"We are learning problem solving using computation\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "cd5531f4-9c3f-44d1-a887-74461d49fb59",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'eaela'"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Extract data from 1 to 10 with a jump of 2\n",
+    "s1[1:11:2]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "21c41aae-ba0c-4903-b350-e2401a29b282",
+   "metadata": {},
+   "source": [
+    "# 2. Try to reverse a string without using reverse function"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "7f0ab5b2-e057-41b8-9a15-79d01f1432d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'noitcnuf sti dna gnirts nohtyp gninrael ma i dna ssalc gnimmargorP nohtyP tsriF yM si siht'"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s[: :-1]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bca640cc-6baf-47c6-9b97-3c2815fbe085",
+   "metadata": {},
+   "source": [
+    "# 3. Try to split a string after conversion of entire string in uppercase"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "8947b29b-e129-4e1d-99a1-07f3a5b01ffd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['this',\n",
+       " 'is',\n",
+       " 'My',\n",
+       " 'First',\n",
+       " 'Python',\n",
+       " 'Programming',\n",
+       " 'class',\n",
+       " 'and',\n",
+       " 'i',\n",
+       " 'am',\n",
+       " 'learning',\n",
+       " 'python',\n",
+       " 'string',\n",
+       " 'and',\n",
+       " 'its',\n",
+       " 'function']"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.upper()\n",
+    "s.split()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9356cdd4-b3e9-45a9-91f8-e2bf78049208",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#this is method of entire string in uppercase"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "12464948-6653-43de-96ba-4a2f8a63b478",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['THIS',\n",
+       " 'IS',\n",
+       " 'MY',\n",
+       " 'FIRST',\n",
+       " 'PYTHON',\n",
+       " 'PROGRAMMING',\n",
+       " 'CLASS',\n",
+       " 'AND',\n",
+       " 'I',\n",
+       " 'AM',\n",
+       " 'LEARNING',\n",
+       " 'PYTHON',\n",
+       " 'STRING',\n",
+       " 'AND',\n",
+       " 'ITS',\n",
+       " 'FUNCTION']"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.upper().split()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "27c384cf-d80f-4f4d-9cd9-ca5ae9e1ad1c",
+   "metadata": {},
+   "source": [
+    "# 4.Try to convert the whole string into lower case"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "5d1b8f41-8218-4fdc-9492-ca13784cb3d7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'this is my first python programming class and i am learning python string and its function'"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.lower()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "28796759-7327-410e-92b4-a626d9359a24",
+   "metadata": {},
+   "source": [
+    "# 5.Try to capitalize the whole string"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "24f82aa1-3487-4732-9cba-1a39d230b249",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'This is my first python programming class and i am learning python string and its function'"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s.capitalize()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c91e5bce-4f81-4c3c-9795-d54f849c8de5",
+   "metadata": {},
+   "source": [
+    "# 6. Write a difference between isalnum() and isalpha()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7bf4712a-00bc-48d0-8329-e087d94aaec9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# isalnum() checks if all characters in the string are alphanumeric that is number and letter\n",
+    "# isalpha() checks if all characters in the string are alphabetic that is only letter\n",
+    "example shown below"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "7e7616c1-4e69-4112-b974-0540550651fb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1=\"abc123\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "83d6da68-9281-43b5-a4bb-7087f8ceebfa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s2=\"abc\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "c9358c01-c379-413b-b95a-6f5775b4e050",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s1.isalnum()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "626b7146-e766-46a9-9e59-c1650e79fb23",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "s2.isalpha()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cc67d448-b60b-4f15-84ef-709380182ca2",
+   "metadata": {},
+   "source": [
+    "# 7.Try to given an example of expand tab"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "3d0648c0-4513-4582-a030-39a87dae77f0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' This   is      a       example'"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "exp=\" This\\tis\\ta\\texample\"\n",
+    "exp.expandtabs()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1a78a0d1-d223-4bd0-b550-90b2436c6c57",
+   "metadata": {},
+   "source": [
+    "# 8.Give an example of strip , lstrip and rstrip"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "f860752f-1e7e-4ee3-a02f-7898c69cb501",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hey!! nutan'"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#1 example of strip:\n",
+    "a= \"@@@55hey!! nutan@5@@@\"\n",
+    "a.strip(\"@5\") # removes all @5only from the right side "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "3c57aeb8-243f-411f-8724-49ce15db0680",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hey!! nutan@5@@@'"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#2 example of lstrip:\n",
+    "a1= \"@@@55hey!! nutan@5@@@\"\n",
+    "a.lstrip(\"@5\") # removes all @5 from the left side"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "198358e6-060f-4c90-b2c4-9ffb1c354452",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# 3.example of rstripL\n",
+    "a2= \"@@@5555hey!! nutan@5@@@\"\n",
+    "a2. rstrip(\"@@@55@"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
