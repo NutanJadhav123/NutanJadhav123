@@ -1,0 +1,670 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "41817d52-0d40-4172-bfe1-ddea518b84e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (3247533736.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[1], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    name@ = \"Ananya Singh\"\u001b[0m\n\u001b[0m          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "name@ = \"Ananya Singh\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "784c44af-813c-4f20-a25f-ca02ff75fcce",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name_ = \"Ananya singh\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "281b2da7-b754-45e8-a2d6-77bdeca3b37c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "_ = \"Ananya Singh\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "f586b246-6afe-4d5c-90f2-18520bc13fe3",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2492002454.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[6], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    break = \"Ananya Singh\"\u001b[0m\n\u001b[0m          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "break = \"Ananya Singh\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "83faab7f-a90d-4627-943e-087de2bd6d40",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "cannot assign to literal here. Maybe you meant '==' instead of '='? (2881954805.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[7], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    50 = \"Ananya Singh\"\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m cannot assign to literal here. Maybe you meant '==' instead of '='?\n"
+     ]
+    }
+   ],
+   "source": [
+    "50 = \"Ananya Singh\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "d4107919-7441-4cdb-b9a5-7256d3de63d4",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "cannot assign to literal here. Maybe you meant '==' instead of '='? (3236464002.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[8], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    34 = \" Nutan Jadhav\"\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m cannot assign to literal here. Maybe you meant '==' instead of '='?\n"
+     ]
+    }
+   ],
+   "source": [
+    "34 = \" Nutan Jadhav\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "cd3e4257-cb66-4fa5-9e87-21fad42d6cde",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "34 == \"Nuta Jadhav\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "e4ad7ff5-44f2-4e5c-8b16-4441c68d773a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Roll_no_34 = \"Nutan Jadhav\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "7b7c019a-6808-4d90-b627-38e00365b5be",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "cannot assign to True (199751834.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[11], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    True = \"Nutan Jadhav\"\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m cannot assign to True\n"
+     ]
+    }
+   ],
+   "source": [
+    "True = \"Nutan Jadhav\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "bcf4cb89-3c7d-49fd-bd12-9e79749f5fdf",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (3201554811.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[12], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    na me = \"Nutan Jadhav\"\u001b[0m\n\u001b[0m       ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "na me = \"Nutan Jadhav\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "19b3c882-5c8e-478c-921a-3c0524069c26",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "age = 30"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "5c18604a-aa8f-430a-b503-4478434356ea",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Age = 35"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "3ea5e08e-b384-41b8-8205-7a03d13dccc3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "30"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "age"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "8d52f3ca-9c0e-481f-9f60-74415d60d635",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "35"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Age"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "ee6fbaea-179f-43d5-8d2b-ffcbc7589c40",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (1653991618.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[18], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    23name = \"Ananya Singh\"\u001b[0m\n\u001b[0m     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "23name = \"Ananya Singh\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "8493dfc5-b013-4b08-bf42-70b9637c51a4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name23 = \"Ananya Singh\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f2d79fe0-00f2-4a68-9d8e-a4a278d2850d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "a45da280-a391-40cf-b241-e3a1a3666c32",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a, b  = 23,67"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "02f5267c-05df-4ddc-86ed-80db524187f1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "23"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "57bf5189-c8f7-4c51-babe-352e0a9f4030",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "67"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "53ee7b71-491c-4405-8a9e-8f0bda06fdd2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Library Function "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "46ca4319-b1ef-43be-930e-7a2afdff9e1b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<function print(*args, sep=' ', end='\\n', file=None, flush=False)>"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "print"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "2dfe2094-53c4-4a9a-bca8-a6cd6bb4da80",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Bhimraj Lad\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Library Function or in-built functions\n",
+    "print(\"Bhimraj Lad\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "23c57fc8-e21d-4910-8152-a08b3acd48c4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "23\n",
+      "a\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a)\n",
+    "print(\"a\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "106c7855-f29a-4fdd-9ade-7a45d499a3b2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "23 67 (23, 67)\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a,b,c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "95814860-0c40-4af4-ade9-73d0df5a3831",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2601123074.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[45], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    o/p-->23, 67, 45\u001b[0m\n\u001b[0m        ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "o/p--> 23, 67, 45"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "be801eba-4eac-45d7-8b72-77f527dc6816",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "23, 67, 45\n"
+     ]
+    }
+   ],
+   "source": [
+    "# o/p--> 23, 67, 45\n",
+    "print(23, 67,45, sep=', ')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "67ea292a-4307-4752-abc3-3817e28c1e37",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "23_67_45\n"
+     ]
+    }
+   ],
+   "source": [
+    "# o/p--> 23, 67, 45\n",
+    "print(23, 67,45, sep='_')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "399a7d79-6181-44ef-a01f-03bdd644f356",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name = \"Bhimraj Lad\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "7d37635b-2097-4288-977e-cfcf66341302",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 53,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "71845f35-3438-4768-9ce2-90794fdec1bb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name1 = 'Bhimraj Lad'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "8e465329-a8fd-4448-b2df-2d343c0c53c7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(name1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "d8120aab-569f-4a2a-898f-f98ccb0e782b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name2 = \"\"\"Bhimraj Lad\"\"\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "648aa6c7-e29c-436c-b054-b0ae9b6e8f85",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 62,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(name2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "c6b4cdb2-a15b-4c86-9a3f-73a8e8a11ef1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name3 = '''Bhimraj Lad'''"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "a029beac-8560-430f-98db-b2809fc41098",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# single quote in string is allowed.\n",
+    "# double quote in string is allowed.\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "84ccfc4f-3dde-49ae-b745-03dc20bd8918",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ananya Singh\n",
+      "Bhimraj Lad\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Ananya Singh\")\n",
+    "print(\"Bhimraj Lad\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "2b039cba-fc10-4842-83d1-65c60697a4f6",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "unterminated string literal (detected at line 1) (4237539821.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[66], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    print(\"Ananya\u001b[0m\n\u001b[0m          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unterminated string literal (detected at line 1)\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Ananya\n",
+    "      Singh\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "8b9207fa-a909-4105-bc3a-839625ec0344",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax. Perhaps you forgot a comma? (2618826833.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[68], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    print(\"Ananya Singh\", end='\\t'_)\u001b[0m\n\u001b[0m                              ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax. Perhaps you forgot a comma?\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Ananya Singh\", end='\\t'_)\n",
+    "print(\"Ananya Singh\",end='\\t')\n",
+    "print(\"Bhimraj Lad\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4d263a13-4f79-407d-9fe3-ed67159eca2f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
